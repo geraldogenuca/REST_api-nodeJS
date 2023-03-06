@@ -1,0 +1,33 @@
+{
+  "name": "rest_api-nodejs",
+  "version": "1.0.0",
+  "description": "API REST movie sales in nodejs!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldogenuca/REST_api-nodeJS.git"
+  },
+  "keywords": ["rest api nodejs mysql express jsonwebtoken bcrypt"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldogenuca/REST_api-nodeJS/issues"
+  },
+  "homepage": "https://github.com/geraldogenuca/REST_api-nodeJS#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "yup": "^1.0.2"
+  }
+}
